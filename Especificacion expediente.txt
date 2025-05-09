@@ -1,0 +1,37 @@
+Especificacion de la clase Expediente.
+Obeject subclass #Expediente
+instanceVariableNames: 'numero titular tramite fecha' 
+classVariableNames: '' 
+poolDictionaries: '' 
+ 
+Expediente class methods 
+>>crearExpedienteNum:unNum tit:unTit tram:unTram fech:unaFech
+"Retorna una instancia de Expediente y la inicializa con sus datos."
+ 
+Expediente methods 
+>>iniExpedienteNum: unNum tit: unTit tram: unTram fech: unaFech
+"Inicializa una instancia de Expediente con sus datos."
+
+>>verFecha
+"Retorna la fecha de un expediente."
+
+>>verNumero
+"Retorna el número de un expediente."
+
+>>verTitular
+"Retorna el titular de un expediente."
+
+>>verTramite
+"Retorna el trámite de un expediente."
+
+>>modiFecha:otraFech
+"Modifica la fecha de un expediente."
+
+>>modiNumero:otroNum
+"Modifica el número de un expediente."
+
+>>modiTitular:otroTit
+"Modifica el titular de un expediente."
+
+>>modiTramite:otroTram
+"Modifica el trámite de un expediente."

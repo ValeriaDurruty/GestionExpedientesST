@@ -1,0 +1,44 @@
+Especificacion de la clase Oficina.
+Object subclass: #Oficina
+instanceVariableNames: 'nombre expedientes' 
+classVariableNames: '' 
+poolDictionaries: '' 
+
+Oficina class methods
+
+>>crearOficinaNom:unNom
+"Retorna una instancia de oficina inicializada"
+
+Oficina methods
+
+>>iniOficinaNom:unNom
+"Inicializa una instancia de oficina"
+
+>>verNom
+"Retorna el nombre de la oficina"
+>>modNom: otroNom
+"Modifica el nombre de la oficina"
+
+>>agregarExpediente:unExpediente
+"Agrega un expediente a la oficina"
+
+>>eliminarExpediente: unExpediente
+"Elimina un expediente de la oficina"
+
+>>esVacio
+"Retorna true si la colección está vacía, false en caso contrario"
+
+>>existe:unExpediente
+"Retorna true si el expediente unExpediente existe, false en caso contrario"
+
+>>verTodos
+"Retorna toda la colección de expedientes de la oficina"
+
+>>recuperarExpediente: pos
+"Retorna el expediente de la posición pos de la oficina"
+
+>>tamanio
+"Retorna el total de expedientes de la oficina"
+
+>>
+
